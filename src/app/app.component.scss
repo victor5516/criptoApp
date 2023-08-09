@@ -1,0 +1,38 @@
+// declare the variables
+$primary-color: #1d3657;
+$withe-color: #fff;
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $withe-color;
+    padding:    20px 40px;
+    background: $primary-color;
+}
+
+
+header h2 span {
+    color: $withe-color;
+}
+
+header ul.nav {
+    display: flex;
+}
+
+header ul.nav li {
+   margin: 0 15px;
+}
+
+header ul.nav li:first-child {
+    margin-left: 0;
+}
+
+header ul.nav li:last-child {
+    margin-right: 0;
+}
